@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!--link rel="stylesheet" type="text/css" href="./assets/css/reset.css"/-->
+    <link rel="styleshett" type="text/css" href="./assets/css/style.css"/>
+    <title>Album Guess Game</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row p-5 m-3 border border-dark">
+            <div class="col text-center">
+                <h1>Album Guess Game</h1>
+                <p>Guess the name of this album based only on the album art!</p>
+                <p>Rules: You get 5 wrong guesses per round. After losing 3 rounds, you lose the game. Get all 10 albums titles right to win the game!</p>
+            </div>
+        </div>
+        <div class="row mx-3 py-3 my-3 border border-dark">
+            <div class="col">
+               <img class="d-block mx-auto img-fluid" id="albumImg" src="#" style="width: 300px; height: 300px" />
+               <p> 
+            </div>
+        </div>
+        <div class = "row mx-3 my-3" id="listRow">
+            <div class="col-md">
+            </div>
+            <div class="col-md">
+                <ul class="list-inline d-none" id="albumInfoList">
+                    <li>Album: <span id="albumName" class="list-inline-item"></span></li>
+                    <li>Artist: <span id="artist" class="list-inline-item"></span></li>
+                    <li>Label: <span id="label" class="list-inline-item"></span></li>
+                </ul>
+            </div>
+            <div class="col-md">
+            </div>
+        </div>
+        <div class="row mx-3 mb-5">
+            <!--where the word guesses go-->
+            <div class="col-md-4 col-sm border border-dark mr-2">
+                <h3 class="pt-3">Player Stats</h3>
+                <h4>Round <span id="round">1</span></h4>
+                <p>Wins: <span id="wins">0</span></p>
+                <p>Losses: <span id="losses">0</span></p>
+                <p>Guesses Left: <span id="guessesLeft">5</span></p>
+                <p>Last Guess: <span id="lastGuess">N/A</span></p>
+            </div>
+            <div class="col text-capitalize display-4 increase-spacing border border-dark">
+                <p id="displayText"></p>
+                <button type="button" class="btn btn-warning d-none" id="nextRoundBtn">Next Round</button>
+            </div>
+        </div>
+    </div>
+<!--Javascript src codes-->
+    <script src="./assets/javascript/javascript.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
