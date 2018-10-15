@@ -1,0 +1,142 @@
+/*GENERAL*/
+html {
+    background-color: #f3f3f3;
+}
+
+body {
+    margin: auto;
+}
+
+
+/*HEADER*/
+.header {
+    border-bottom: 1px solid #b4b4b4;
+    height: 90px;
+    background-color: #ffffff;
+    overflow: visible;
+}
+
+.search {
+    /*border: solid black 1px;*/
+    margin-right: 100px;
+    margin-top: 30px;
+    height: 40px;
+}
+
+.header form {
+    float: left;
+}
+
+#burger {
+    margin-right: 20px;
+}
+
+.header li {
+    display: inline;
+    margin-right: 40px;
+}
+
+.header ul {
+    /*border: solid black 1px;*/
+    display: inline-block;
+    padding: 5px;
+    vertical-align: top;
+    margin-top: 32px;
+    clear: both;
+}
+
+.header a:link {
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: 600;
+    color: #555555;
+    text-decoration: none;
+}
+
+.header a:visited {
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: 600;
+    color: #555555;
+    text-decoration: none;
+}
+
+.header a:hover {
+    color: #c32934;
+}
+
+#active {
+    color: #c32934;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#bar {
+    height: 35px;
+    vertical-align: top;
+    margin-right: 20px;
+    border: 1px solid black;
+    border-left: none;
+    background-color: #eeeeee;
+    color: black;
+}
+
+::-webkit-input-placeholder {
+    color: black;
+    font-size: 12px;
+    font-family: Arial;
+}
+
+#magnifying-glass {
+    border: 1px solid black;
+    border-right: none;
+}
+
+#logo {
+    margin: 25px 39px 0px 40px;
+    display: inline;
+}
+/*END HEADER*/
+
+
+/*MAIN CONTENT*/
+.content img {
+    margin-top: 40px;
+}
+
+#main-img {
+    margin-left: 45px;
+}
+
+.content {
+    width: 1100px;
+    margin: auto;
+}
+
+.content input {
+    padding: 2px;
+}
+
+#resultsSection {
+    margin-top: 40px;
+    position: relative;
+    font-family: Arial;
+    color: #555555;
+    font-size: 14px;
+    text-align: center;
+}
+
+span {
+    color: #c32934;
+    font-weight: bolder;
+}
+
+#resultsSection {
+    width: 700px;
+    margin-left: 40px;
+}
+
+img {
+    max-width: 100%;
+}
+/*END MAIN CONTENT*/
